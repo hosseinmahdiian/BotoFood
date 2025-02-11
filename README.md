@@ -1,6 +1,6 @@
-This project devlope by Next.js 
-wright SSG SSR & ISR pages
-design whit Tailwind css
+This project devlope by Next.js ||
+wright SSG SSR & ISR pages ||
+design with Tailwind css
 
 
 ![screencapture-food-one-smoky-vercel-app-2025-02-12-00_10_07](https://github.com/user-attachments/assets/e306fb89-0799-4923-93e1-28fb215e1ead)
