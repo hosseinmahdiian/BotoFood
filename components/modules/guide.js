@@ -6,7 +6,7 @@ const Guide = () => {
       <div className=" my-10 flex justify-around gap-x-2  ">
         <Link className='w-44 border rounded-lg text-center py-2 bg-gray-100 shadow-md' href="/menu">Menu</Link>
         <Link className='w-44 border rounded-lg text-center py-2 bg-gray-100 shadow-md' href="/categories">Cate</Link>
-        <Link className='w-44 border rounded-lg text-center py-2 bg-gray-100 shadow-md' href="/">DisCount</Link>
+        {/* <Link className='w-44 border rounded-lg text-center py-2 bg-gray-100 shadow-md' href="/">DisCount</Link> */}
       </div>
     );
 }

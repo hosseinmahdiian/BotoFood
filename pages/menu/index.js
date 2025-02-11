@@ -8,7 +8,7 @@ const menu = ({ data }) => {
 export default menu;
 
 export async function getStaticProps() {
-  const res = await fetch(`https://boto-food-api.vercel.app/data`);
+  const res = await fetch(`${process.env.BASE_URL}/data`);
   const data = await res.json();
 
   return {

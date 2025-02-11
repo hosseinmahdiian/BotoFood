@@ -18,7 +18,7 @@ const DetailsPage = (props) => {
   console.log(props);
 
   return (
-    <div className="px-4">
+    <div className="px-4 container mx-auto ">
       <h1 className="font-semibold border-b-2 border-lime-400  w-fit">
         Details
       </h1>
@@ -87,10 +87,6 @@ const DetailsPage = (props) => {
           </div>
         ))}
       </div>
-
-      <button className=" my-4 text-white bg-lime-400 rounded-lg text-center w-full py-2 font-bold">
-        Add to Cart
-      </button>
     </div>
   );
 };

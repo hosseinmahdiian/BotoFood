@@ -17,8 +17,8 @@ const CategoriesPage = ({ data }) => {
     setQuery({ ...query, [e.target.name]: e.target.value });
   };
   return (
-    <>
-      <div className=" md:flex justify-between md:mx-0 mx-auto gap-4 px-4 child:mt-4  mb-4 child:md:mt-0  max-w-lg ">
+    <div className="container mx-auto">
+      <div className=" container md:flex justify-between md:mx-0 mx-auto gap-4 px-4 child:mt-4  mb-4 child:md:mt-0  max-w-lg ">
         <select
           value={query.difficulty}
           name="difficulty"
@@ -59,7 +59,7 @@ const CategoriesPage = ({ data }) => {
         <img
           src="/images/search.png"
           alt="search"
-          className="w-40 md:w-fit  mt-10 mx-auto
+          className="w-40 md:w-fit  mt-10 mx-auto mb-4
               "
         />
       ) : (
@@ -69,7 +69,7 @@ const CategoriesPage = ({ data }) => {
           ))}
         </div>
       )}
-    </>
+    </div>
   );
 };
 
